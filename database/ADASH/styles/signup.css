@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 15px;   
+}
+
+.container{
+    display: flex;
+}
+/* img */
+.img {
+    background: linear-gradient(89.83deg, #66ABF4 0.15%, #C8A8F8 99.86%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.logo{
+    width: 450px;
+    height: 450px;
+}
+
+.lap{
+    width: 190px;
+    height: 80px;
+}
+
+.img h2 {
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    color: #515254;
+    margin: 51px 0;
+}
+/* img */
+/* details */
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background: #ADAFF1;
+    border: 1px solid #1328E4;
+    box-shadow: 5px 5px 13px 15px rgba(0, 0, 0, 0.25);
+    padding: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} 
+
+.details h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.details input {
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    margin: 40px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(205, 20, 20, 1);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* details

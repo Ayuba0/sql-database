@@ -1,0 +1,50 @@
+body{
+    background-color: 66ABF4;
+}
+img{
+    justify-content: center;
+    align-items: center;
+}
+span{
+    text-decoration: none;
+   
+}
+.button{
+    background-color: 8381CC;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    height: 65px;
+    width: 185px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    font-size: 40px;
+    font-family: inter;
+    color: #101132;
+}
+.log{
+    width: 93px;
+    height: 40px;
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 1);
+}
+.submit{
+    width: 185px;
+height: 65px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+color: 8381CC;
+border-radius: 16px;
+background-color: #8381CC;
+
+}
